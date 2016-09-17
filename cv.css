@@ -1,0 +1,194 @@
+body{
+	background:#333333 url(images/page-bg.jpg);
+	width: 100%;
+	height:100%;
+	margin:0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#6a6969;
+}
+h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+ul{margin:0px; padding:0px;}
+a {text-decoration:none; color:#6a6969;}
+a:hover {color:#979797;}
+a img{border:0px;}
+
+#container{
+	width:950px;
+	background-color:white;
+	overflow:auto;
+	padding-bottom:100px;
+	border-left: 5px black dotted;
+}
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+#header{
+	width:68.6%;
+	height:115px;
+	background-color:#39CCCC;
+	padding:0px 43px;
+	position: fixed;
+	top:0px;
+	left:55.35%;
+	margin: 0 0 0 -475px;
+	border-left: 5px black dotted;
+
+}
+#header #logo{
+	padding-top:40px;
+	color:red;
+	float:left;
+}
+#header #main-menu{float:right; padding-top:45px;}
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+/****************************************************/
+/* ABOUT SECTION */
+/****************************************************/
+#profileImage{
+	 overflow:hidden;
+    -webkit-border-radius:70px;
+    -moz-border-radius:70px;
+    border-radius:70px;
+	width: 20%;
+	height:130%;
+	float: right;
+	margin-top: -60px;
+	margin-left: -50em;
+}
+#about{margin:0px 43px; padding-top:115px;}
+#about h1{float:left;}
+#developpeur{
+	position: relative;
+	left: 30%;
+}
+
+
+
+/****************************************************/
+/* EXPERIENCE SECTION */
+/****************************************************/
+
+#experience{margin:0px 43px; padding-top:15px;}
+#experience .col{
+	width:235px;
+	float:left;
+}
+
+#experience .col-mid{margin:0px 65px;}
+
+/****************************************************/
+/* WORK SECTION */
+/****************************************************/
+
+#work{margin:0px 43px; padding-top:15px;}
+
+#work #work-thumbs li{
+	float:left;
+	padding:0px;
+}
+#work #work-thumbs li.last{margin:0px;}
+
+/****************************************************/
+/* CONNECT SECTION */
+/****************************************************/
+#connect{margin:0px 43px; padding-top:15px;}
+
+
+#connect #social-footer{
+	width:300px;
+	float:left;
+	margin-left:75px;
+}
+#connect #social-footer #sm-links{margin-top:25px;}
+#connect #social-footer #sm-links li{
+	list-style:none;
+	float:left;
+}
+#connect #social-footer #sm-links li a{
+	display:block;
+	text-indent:-9999px;
+	width:26px; 
+	height:26px;
+	margin-right:10px;
+}
+#connect #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
+#connect #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.vimeo{background:url(images/sm-vimeo-icon.png) no-repeat; width:27px;}
+#connect #social-footer #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
+#connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	background:url(images/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:5px;}
+.bottom-divider{margin-top:40px;}
+
+.etoile{
+	float: left;
+}
+
+.competence{
+	padding-right:35px;
+}
+
+#complement{
+	float: left;
+	background: silver;
+	width: 17%;
+	height:1000px;
+	padding-left:5px; 
+	border-right: 5px black dotted;
+}
+
+#langues{
+	margin-top: 70px;
+	
+}
+
+#nom{
+	font-size: 20px;
+	margin-right: 2px;
+	color: white;
+	
+}
+#age{
+	margin-top: -10px;
+	color: white;
+}
+
+.title{
+	overflow:hidden;
+    -webkit-border-radius:70px;
+    -moz-border-radius:70px;
+    border-radius:70px;
+    background-color:gray; 
+    padding: 5px;
+    color:white;
+}
+
+#Contacter{
+	position: relative;
+	top:45px;
+}
+
+.logoCv{
+	width: 30px;
+	height: 30px;
+}
